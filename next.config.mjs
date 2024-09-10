@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/tripshaman/:path*',
-        destination: 'https://tripshaman-n5an.vercel.app/:path*',
+        destination: 'https://tripshaman-n5an.vercel.app/tripshaman/:path*',
       },
     ];
   },
