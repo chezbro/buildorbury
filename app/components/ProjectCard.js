@@ -12,6 +12,12 @@ const ProjectCard = ({ title, description, slug }) => {
         >
           View TripShaman
         </Link>
+        <Link 
+          href="/traderschool"
+          className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors"
+        >
+          View TraderSchool
+        </Link>        
       </div>
     </div>
   );
